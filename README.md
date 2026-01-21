@@ -24,6 +24,7 @@ pip install -e .
 
 # 2. Run demo (creates sample data + full analysis)
 python test_complete_pipeline.py
+# This demo script generates sample solar plant data and runs a complete analysis
 
 # 3. Check the outputs folder - you'll find:
 #    ✅ Performance analysis reports
@@ -113,7 +114,7 @@ config = PlantAnalysisConfig(
 
 # Run it!
 orchestrator = SolarPlantWorkflowOrchestrator()
-results = orchestrator.run_comprehensive_analysis(config)
+results = orchestrator.run_comprehensive_plant_analysis(config)
 
 # Results automatically exported to Excel, CSV, JSON + visualizations
 ```
