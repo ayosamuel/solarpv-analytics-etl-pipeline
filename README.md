@@ -1,10 +1,10 @@
-# Solar PV Analytics ETL Pipeline
+# Solar PV Analytics Pipeline
 
 > **Transform raw solar plant data into actionable insights** — automated performance analysis, fault detection, and professional reports in minutes, not days.
 
-## 🎯 What This Does (In Plain English)
+## What This Does (In Plain English)
 
-If you're a **data analyst** working with solar power plants, you know the pain:
+deriving business value from solar power plants telementry data can be challenging:
 - Messy CSV files from multiple sensors
 - Manual data cleaning taking hours
 - Copy-pasting analysis scripts for each plant
@@ -14,7 +14,7 @@ If you're a **data analyst** working with solar power plants, you know the pain:
 
 You point it at your solar plant data → it cleans, analyzes, and generates professional reports automatically.
 
-## ⚡ Quick Start (5 Minutes)
+## Quick Start (5 Minutes)
 
 ```bash
 # 1. Install
@@ -27,54 +27,51 @@ python test_complete_pipeline.py
 # This demo script generates sample solar plant data and runs a complete analysis
 
 # 3. Check the outputs folder - you'll find:
-#    ✅ Performance analysis reports
-#    ✅ Fault detection results  
-#    ✅ Interactive visualizations
-#    ✅ Excel/CSV/JSON exports
+#     Performance analysis reports
+#     Fault detection results  
+#     Interactive visualizations
+#     Excel/CSV/JSON exports
 ```
 
-**That's it!** You just ran a complete solar plant analysis.
+##  What You Get
 
-## 💡 What You Get
+### For Daily Work:
 
-### For Your Daily Work:
-
-**📊 Automated Performance Analysis**
+**Automated Performance Analysis**
 - Calculate Performance Ratio (PR) — industry standard metric
 - Daily, monthly, and annual summaries
 - Identify underperforming periods instantly
 
-**🔍 Fault Detection**
+**Fault Detection**
 - Find equipment problems before they cost you money
 - Statistical anomaly detection on sensor data
 - Prioritized alerts for maintenance teams
 
-**📈 Professional Reports**
-- Executive-ready dashboards
+**Professional Reports**
 - Interactive charts (zoom, filter, export)
 - Multiple formats: Excel, CSV, JSON, PNG
 
-**⏱️ Time Savings**
+**Time Savings**
 - **Before**: Days of manual work per plant
 - **After**: Minutes with this pipeline
 - Scale from 1 plant to 50+ plants easily
 
-## 🔄 How It Works
+## How It Works
 
 ```
-Your Solar Data → ETL Pipeline → Insights & Reports
+Solar Data → ETL Pipeline → Insights & Reports
    (CSV files)    → (Automated)  → (Ready to use)
 ```
 
 **Three Simple Steps:**
 
-1. **Extract**: Reads your CSV/Excel files (energy meters, weather stations, inverters)
+1. **Extract**: Reads CSV/Excel files (energy meters, weather stations, inverters)
 2. **Transform**: Cleans data, removes outliers, calculates performance metrics
 3. **Load**: Generates reports, visualizations, and exports in multiple formats
 
 **The Key Benefit**: Configure once, use everywhere. No code changes needed for different plants.
 
-## 📁 What Data You Need
+## 📁 What Data is needed
 
 Minimum requirements (any of these formats: CSV, Excel):
 
@@ -86,7 +83,7 @@ Optional (for deeper analysis):
 - Inverter-level data (for fault detection)
 - String-level current (for detailed diagnostics)
 
-## 💼 Real-World Example
+## Example
 
 ```python
 from etl.workflow_orchestrator import SolarPlantWorkflowOrchestrator, PlantAnalysisConfig
@@ -119,11 +116,11 @@ results = orchestrator.run_comprehensive_plant_analysis(config)
 # Results automatically exported to Excel, CSV, JSON + visualizations
 ```
 
-**Output**: 24 files including performance reports, fault detection alerts, and interactive dashboards.
+**Output**: Report files including performance reports, fault detection alerts, and interactive dashboards.
 
-## 📊 Example Results
+## Example Results
 
-After running the pipeline, you get:
+After running the pipeline, outputs:
 
 **Performance Analysis**
 - Daily/Monthly PR trends
@@ -142,7 +139,7 @@ After running the pipeline, you get:
 - Interactive dashboards you can share with stakeholders
 - Professional PNG exports for presentations
 
-## 🛠️ Key Features
+## Key Features
 
 ✅ **Multi-Format Support**: CSV, Excel, JSON input/output  
 ✅ **Automated Cleaning**: Handles missing data, outliers, sensor errors  
@@ -151,7 +148,7 @@ After running the pipeline, you get:
 ✅ **Flexible Exports**: Excel workbooks, CSV files, JSON APIs, PNG charts  
 ✅ **Production-Ready**: Error handling, logging, validation built-in  
 
-## 📚 Documentation
+## Documentation
 
 - **[Getting Started Guide](GETTING_STARTED.md)** - Detailed setup and usage
 - **[Architecture Overview](ARCHITECTURE.md)** - Technical design details
@@ -165,18 +162,17 @@ After running the pipeline, you get:
 - Asset managers needing regular reports
 - Engineers doing root cause analysis
 
-**You don't need to be a programmer** — just basic Python knowledge to configure and run.
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.8 or higher
 - Basic packages: pandas, numpy, matplotlib (auto-installed)
 
-## 📄 License
+##  License
 
 MIT License - free to use for commercial and personal projects.
 
-## 🚀 Why Use This?
+## Why Use This?
 
 **Instead of:**
 - Writing custom scripts for each plant
@@ -190,7 +186,7 @@ MIT License - free to use for commercial and personal projects.
 - Consistent, repeatable analysis
 - Professional outputs in minutes
 
-## 🤝 Contributing
+## Contributing
 
 Found a bug? Have a feature request? Want to add new analysis types?
 
@@ -199,8 +195,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## 📞 Support
 
 - **Issues**: [GitHub Issues](https://github.com/ayosamuel/solarpv-analytics-etl-pipeline/issues)
-- **Email**: ayosamuel [via GitHub]
+- **write me**: ayo.adenigba@leitway.com or [via GitHub]
 
 ---
-
-**Ready to automate your solar analytics?** Start with `python test_complete_pipeline.py` and see the results in 2 minutes. 🌞
